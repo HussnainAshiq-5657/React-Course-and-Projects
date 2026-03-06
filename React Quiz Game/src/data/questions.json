@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "React is mainly used for?",
+    "options": ["Styling", "Mobile Apps", "Building UI", "None"],
+    "answer": "Building UI"
+  },
+  {
+    "id": 2,
+    "question": "Which hook is used for state in React?",
+    "options": ["useEffect", "useState", "useMemo", "useContext"],
+    "answer": "useState"
+  },
+  {
+    "id": 3,
+    "question": "Which hook is used for side effects?",
+    "options": ["useState", "useEffect", "useRef", "useReducer"],
+    "answer": "useEffect"
+  },
+  {
+    "id": 4,
+    "question": "React is a ____ library?",
+    "options": ["Backend", "UI", "Database", "Testing"],
+    "answer": "UI"
+  },
+  {
+    "id": 5,
+    "question": "Which method is used to render React app?",
+    "options": ["render()", "createRoot()", "append()", "mount()"],
+    "answer": "createRoot()"
+  },
+  {
+    "id": 6,
+    "question": "JSX stands for?",
+    "options": ["Java Syntax XML", "JavaScript XML", "JSON XML", "JS Extension"],
+    "answer": "JavaScript XML"
+  },
+  {
+    "id": 7,
+    "question": "Which hook is used to access context?",
+    "options": ["useContext", "useMemo", "useEffect", "useRef"],
+    "answer": "useContext"
+  },
+  {
+    "id": 8,
+    "question": "Props in React are?",
+    "options": ["Mutable", "Read-only", "Global", "Private"],
+    "answer": "Read-only"
+  },
+  {
+    "id": 9,
+    "question": "Which keyword is used to export a component?",
+    "options": ["return", "export", "import", "default"],
+    "answer": "export"
+  },
+  {
+    "id": 10,
+    "question": "Which hook replaces componentDidMount?",
+    "options": ["useState", "useEffect", "useRef", "useCallback"],
+    "answer": "useEffect"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "name": "Muhammed Hussnain Ashiq",
+      "age": "22",
+      "email": "hussnainnaz18@gmail.com",
+      "id": "6e21"
+    },
+    {
+      "name": "Ali Hassan",
+      "age": "23",
+      "email": "alihassan@gmail.com",
+      "id": "9a25"
+    },
+    {
+      "name": "Zain Ashiq",
+      "age": "19",
+      "email": "zainashiq12@gmail.com",
+      "id": "3186"
+    },
+    {
+      "name": "Azam Khan",
+      "age": "22",
+      "email": "azamkhan12@gmail.com",
+      "id": "3bd8"
+    }
+  ]
+}

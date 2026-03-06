@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-poppins: 'Poppins', system-ui, sans-serif;
+  --color-danger: #db4444;
+}
+/* .slick-prev:before,
+.slick-next:before {
+  color: gray !important;
+  font-size: 30px !important;
+} */
+/* .slick-prev {
+  left: -40px !important;
+  z-index: 10;
+}
+
+.slick-next {
+  right: -40px !important;
+  z-index: 10;
+} */
+
+/* Fix react-slick horizontal scroll issue */
+html,
+body {
+  overflow-x: hidden;
+}
