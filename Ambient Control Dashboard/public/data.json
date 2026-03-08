@@ -1,0 +1,70 @@
+{
+  "devices": [
+    {
+      "id": "1",
+      "name": "Ceiling Light",
+      "type": "light",
+      "icon": "Sun",
+      "status": "active",
+      "brightness": 80,
+      "temperature": 22,
+      "powerUsage": 45,
+      "room": "Living Room"
+    },
+    {
+      "id": "2",
+      "name": "Smart Wall",
+      "type": "wall",
+      "icon": "Layout",
+      "status": "inactive",
+      "brightness": 0,
+      "temperature": 21,
+      "powerUsage": 12,
+      "room": "Living Room"
+    },
+    {
+      "id": "3",
+      "name": "AC Unit",
+      "type": "ac",
+      "icon": "Wind",
+      "status": "active",
+      "brightness": 65,
+      "temperature": 24,
+      "powerUsage": 120,
+      "room": "Bedroom"
+    },
+    {
+      "id": "4",
+      "name": "Desk Lamp",
+      "type": "light",
+      "icon": "Lamp",
+      "status": "active",
+      "brightness": 45,
+      "temperature": 22,
+      "powerUsage": 30,
+      "room": "Office"
+    },
+    {
+      "id": "5",
+      "name": "Floor Lamp",
+      "type": "light",
+      "icon": "LampFloor",
+      "status": "inactive",
+      "brightness": 0,
+      "temperature": 22,
+      "powerUsage": 0,
+      "room": "Living Room"
+    },
+    {
+      "id": "6",
+      "name": "Smart Speaker",
+      "type": "speaker",
+      "icon": "Speaker",
+      "status": "active",
+      "brightness": 0,
+      "temperature": 22,
+      "powerUsage": 15,
+      "room": "Kitchen"
+    }
+  ]
+}
