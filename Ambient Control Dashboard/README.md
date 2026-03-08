@@ -43,24 +43,43 @@ A modern, responsive dashboard for controlling Limi modules with real-time envir
 ## 📁 Project Structure
 
 ├── public/
+
 │ └── data.json # Mock device data
+
 ├── src/
+
 │ ├── components/
+
 │ │ ├── Sidebar.jsx 
+
 │ │ └── DeviceCard.jsx 
+
 │ ├── store/
+
 │ │ ├── store.js
+
 │ │ └── deviceSlice.js 
+
 │ ├── hooks/
+
 │ │ └── useDeviceStatus.js
+
 │ ├── App.jsx 
+
 │ ├── main.jsx
+
 │ └── index.css 
+
 ├── index.html
+
 ├── package.json
+
 ├── eslint.config.js
+
 ├── package-lock.js
+
 └── vite.config.js
+
 
 ## 🚀 Installation & Setup
 
