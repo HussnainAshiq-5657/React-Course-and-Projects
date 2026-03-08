@@ -1,16 +1,75 @@
-# React + Vite
+# Ambient Control Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive dashboard for controlling Limi modules with real-time environmental monitoring. Built with React.js, Redux Toolkit, and Tailwind CSS v4.
 
-Currently, two official plugins are available:
+![Dashboard Preview](https://ambient-control-dashboard.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+[View Live Demo](https://ambient-control-dashboard.netlify.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📋 Features Implemented
 
-## Expanding the ESLint configuration
+### Core Requirements
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Feature | Implementation |
+|---------|---------------|
+| **Modular UI Architecture** | Reusable `DeviceCard` component with toggle switch, status indicator, and brightness slider |
+| **Responsive Grid Layout** | Mobile (1-col), Tablet (2-col), Desktop (3-4 col) using Tailwind CSS |
+| **Global State Management** | Redux Toolkit with master power control that toggles all devices |
+| **Custom Hooks** | `useDeviceStatus` simulates real-time temperature and power usage updates |
+| **Micro-interactions** | Smooth animations with CSS transitions and pulse effects |
+| **Toast Notifications** | `react-toastify` shows success messages when toggling devices |
+| **Data Fetching** | Async thunk fetches initial device list from local `data.json` |
+| **Dark Mode** | Beautiful dark theme with ambient gradients |
+
+### Bonus Features
+- ✅ Clean folder structure (`/components`, `/hooks`, `/store`)
+- ✅ DRY code principles with reusable components
+- ✅ Responsive from mobile to 4K displays
+- ✅ Proper loading and error states
+
+## 🛠️ Tech Stack
+
+- **React.js** (v18) - UI library
+- **Redux Toolkit** - State management
+- **Tailwind CSS v4** - Styling (NO config file, CSS-first approach)
+- **Vite** - Build tool and dev server
+- **React Toastify** - Toast notifications
+- **Lucide React** - Beautiful icons
+- **Framer Motion** - Smooth animations *(optional)*
+
+## 📁 Project Structure
+
+├── public/
+│ └── data.json # Mock device data
+├── src/
+│ ├── components/
+│ │ ├── Sidebar.jsx 
+│ │ └── DeviceCard.jsx 
+│ ├── store/
+│ │ ├── store.js
+│ │ └── deviceSlice.js 
+│ ├── hooks/
+│ │ └── useDeviceStatus.js
+│ ├── App.jsx 
+│ ├── main.jsx
+│ └── index.css 
+├── index.html
+├── package.json
+├── eslint.config.js
+├── package-lock.js
+└── vite.config.js
+
+## 🚀 Installation & Setup
+
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Step 1: Clone the repository
+```bash
+git clone https://github.com/HussnainAshiq-5657/React-Course-and-Projects/edit/main/Ambient%20Control%20Dashboard/
+cd ambient-control-dashboard
+npm install
+npm run dev
