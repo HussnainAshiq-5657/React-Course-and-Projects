@@ -2,7 +2,8 @@
 
 A modern, responsive dashboard for controlling Limi modules with real-time environmental monitoring. Built with React.js, Redux Toolkit, and Tailwind CSS v4.
 
-![Dashboard Preview](https://ambient-control-dashboard.netlify.app/)
+<img width="1892" height="860" alt="image" src="https://github.com/user-attachments/assets/3051cd1a-0cea-47c9-a5f8-7df0268551f9" />
+
 
 ## 🚀 Live Demo
 
