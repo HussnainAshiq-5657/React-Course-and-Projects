@@ -1,1 +1,9 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+:root {
+  --secondary-color: #9333ea;
+}
+@theme {
+  --bg-primary: var(--secondary-color);
+}
+ 
